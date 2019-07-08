@@ -1,0 +1,127 @@
+body{
+    margin: 0% ;
+    padding: 0%;
+    background-color: black ;
+
+}
+
+.D1 *{
+    display: inline;
+    margin-left: 10px;
+
+}
+
+.D1{
+    display:flex;justify-content: center;
+}
+
+.D1 a:link{
+    color:white;
+}
+
+.D1 a:hover{
+    color:white;
+}
+
+.D1 a:visited{
+    color:white;
+}
+img{
+    width: 100%;
+}
+h2{
+    color: white;
+}
+
+.baya{
+    padding-top: 80px;
+}
+
+p{
+    color: white;
+}
+
+.Hori *{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+  
+}
+
+.m1{
+    background-image: url(https://media.istockphoto.com/vectors/programming-and-coding-icon-laptop-vector-id509114308?k=6&m=509114308&s=612x612&w=0&h=HOwMin8vgPd2RkuiHwLgWXosWHFIDC3v6PbjiyqoTIs=);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+}
+
+.m2{
+    background-image: url(http://clipart-library.com/data_images/339374.png);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+
+}
+
+
+.m3{
+    background-image: url(https://comps.canstockphoto.com/web-design-coding-vector-clipart_csp20539508.jpg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+
+
+}
+
+.m4{
+    background-image: url(https://comps.canstockphoto.com/vector-code-editor-icon-clip-art-vector_csp16223565.jpg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+
+
+}
+
+.m5{
+    background-image: url(https://owips.com/sites/default/files/styles/225x120/public/clipart/coding-clipart/476001/coding-clipart-476001-1521128.png?itok=3TDM7XEA);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+
+
+}
+
+.m6{
+    background-image: url(https://hdclipartall.com/images/coder-clipart-code-clipart-programer-4-450x450.jpg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+
+
+}
+.Hori{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+
+}
+
+.Hori button{
+    width: 100x;
+    height: 50px;
+}
+
+.btn{
+    display: none;
+}
+p{
+    color:black;
+}
+
+.form-group{
+    display:flex;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+}

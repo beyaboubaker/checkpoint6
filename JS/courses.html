@@ -1,0 +1,159 @@
+<html>
+
+<head>
+<title>Nouvelle page 1</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+		<header>
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+				  <div class="navbar-header">
+					<a class="navbar-brand" href="#">WebSiteName</a>
+				  </div>
+				  <ul class="nav navbar-nav">
+					<li class="active"><a href="INDEX.HTML">Home</a></li>
+					<li><a href="courses.html">COURSES</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				  </ul>
+				</div>
+			  </nav>
+						
+	
+			</header>
+			<div id="ex1" class="modal">
+				<p>Thanks for clicking. That felt good.</p>
+				<a href="#" rel="modal:close">Close</a>
+			  </div>
+		<p><a href="#ex1" rel="modal:open">Open Modal</a></p>
+
+			<div class="Hori">
+		<div class="m1">
+			<a href="#ex1" rel="modal:open"><button class="but1 btn">view more</button></a>
+		</div>
+
+		<div class="m2">
+			<a href="#ex1" rel="modal:open"><button class="but2 btn">view more</button></a>
+			</div>
+
+			<div class="m3">
+					<a href="#ex1" rel="model:open"><button class="but3 btn">view more</button></a>
+				</div>
+	</div>
+
+	<div class="Hori">
+			<div class="m4">
+				<a href="#ex1" rel="model:open"><button class="but4 btn">view more</button></a>
+			</div>
+	
+			<div class="m5">
+					<a href="#ex1" rel="model:open"><button class="but5 btn">view more</button></a>
+				</div>
+	
+				<div class="m6">
+						<a href="#ex1" rel="model:open"><button class="but6 btn">view more</button></a>
+					</div>
+		</div>
+
+
+
+<center>
+<div classe="baya">
+	
+		<button onclick="GRAS()">B</button>
+		<button onclick="ITAlic()">I</button>
+		<button  onclick ="SOULIGNE()">S</button>			
+<form name="f">
+	<div class="rayhane">
+		<select name="s" onchange="taille()"><option value="20">20px</option> <option value="30">30px</option><option value="40">40px</option></select>
+		<select name="s1" onchange="police()"><option value="Arial">Arial</option> <option value="verdana">verdana</option><option value="geneva">geneva</option></select>
+
+	</div>
+	
+
+</form>
+</div >
+<div>
+	<form>
+		<textarea id="textear"></textarea>
+	</form>
+
+	</div></center>
+</body>
+<script src="main.js"></script>
+<script>
+$(".m1").mouseover(function(){
+    $(".but1").show();
+	$(".m1").css("opacity","0.5");
+});
+$(".m1").mouseout(function(){
+    $(".but1").hide();
+	$(".m1").css("opacity","1");
+});
+
+$(".m2").mouseover(function(){
+    $(".but2").show();
+	$(".m2").css("opacity","0.5");
+});
+$(".m2").mouseout(function(){
+    $(".but2").hide();
+	$(".m2").css("opacity","1");
+});
+
+$(".m3").mouseover(function(){
+    $(".but3").show();
+	$(".m3").css("opacity","0.5");
+});
+$(".m3").mouseout(function(){
+    $(".but3").hide();
+	$(".m3").css("opacity","1");
+});
+
+$(".m4").mouseover(function(){
+    $(".but4").show();
+	$(".m4").css("opacity","0.5");
+});
+$(".m4").mouseout(function(){
+    $(".but4").hide();
+	$(".m4").css("opacity","1");
+});
+
+$(".m5").mouseover(function(){
+    $(".but5").show();
+	$(".m5").css("opacity","0.5");
+});
+$(".m5").mouseout(function(){
+    $(".but5").hide();
+	$(".m5").css("opacity","1");
+});
+
+$(".m6").mouseover(function(){
+    $(".but6").show();
+	$(".m6").css("opacity","0.5");
+});
+$(".m6").mouseout(function(){
+    $(".but6").hide();
+	$(".m6").css("opacity","1");
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>
